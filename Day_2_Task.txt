@@ -1,0 +1,43 @@
+Diffrence between Document and windows objects?
+
+Documents:
+
+ * Documents is an objects inside the window object and we can use the document objects 
+   for manipulation inside the document.
+   
+      Syntax : documents.propertyname (or) window.document.propertyname;
+	  
+ * Properties related to it stored in the document objects.
+ * Document loaded after loading the window because the windows contains documnet.
+ * It is the root elements of document object model.
+ * It is an object of window.
+ * We cannot access window object properties inside the documnet
+ * It represent the document loaded inside the window or browser.
+ * Example of Document:
+    document.title will return the title of document
+ * When HTML document is loaded into browser it becomes a document object.
+ * Document object is root node for HTML document.
+ * Some methods of document object :
+    URL,cookie(),getElementById(),getElementByClassName(),getElementByName(),getElementByTagName(),
+	write(),writeIn()....
+	
+	
+Window.
+
+ * It represent the browser window in which you are seeing the content.
+ * The properties related to it stored in the window objects.
+ * It is loaded before the document because window container document.
+ * Window is global element for all objects,functions,etc..
+ * It is an object of browser.
+ * We can access document object properties inside the windows.
+ *  Syntax: window.properties;
+ * Example for window :
+    window.documnet.title.will return the title of document.
+ * There are two properties used to determine the size of browser window.
+   1) window.innerHeight => inner height of browser windows(in pixels).
+   2) window.innerWidth => inner width of browser windows(in pixels).
+ * other windows methods are
+    1)window.open() => open new window.
+	2)window.close() => close the current window.
+	3)window.moveTo() => move to current window.
+    4)window.resizeTo() => resize the current window().	
